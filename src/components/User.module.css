@@ -1,0 +1,58 @@
+.user{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.user> .nome{
+    font-size:1.3rem;
+    color: aliceblue;
+}
+
+.userNone{
+    display: none;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: solid 2px red;
+}
+
+.localizacaoUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.localizacaoUser > img{
+    border:none;
+    width: 25px;
+    background-color:brown;
+    padding: 2px;
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    gap:25px; 
+   
+}
+.followNumber{
+    background-color: blueviolet;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.follow > div > p{
+    color: aliceblue;
+}
+
+.user > a{
+    color: aliceblue;
+   background-color: cornflowerblue;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
